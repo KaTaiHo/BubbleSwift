@@ -1,15 +1,15 @@
 //
-//  GameScene.swift
+//  StartScene.swift
 //  Bubbles With Friends
 //
-//  Created by Ka Tai Ho on 12/26/17.
+//  Created by Ka Tai Ho on 12/27/17.
 //  Copyright © 2017 Aw Yis. All rights reserved.
 //
 
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
+class StartScene: SKScene {
     
     let popSound = SKAction.playSoundFileNamed("pop.mp3" , waitForCompletion: false)
     

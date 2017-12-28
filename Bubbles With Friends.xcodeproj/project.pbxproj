@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B41599B1FF4B0D30000966F /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4B41599A1FF4B0D30000966F /* StartScene.sks */; };
+		4B41599D1FF4B1010000966F /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B41599C1FF4B1010000966F /* StartScene.swift */; };
 		4BD3F4B21FF3697900FDCC0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3F4B11FF3697900FDCC0D /* AppDelegate.swift */; };
-		4BD3F4B41FF3697900FDCC0D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3F4B31FF3697900FDCC0D /* GameScene.sks */; };
-		4BD3F4B61FF3697900FDCC0D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3F4B51FF3697900FDCC0D /* Actions.sks */; };
 		4BD3F4B81FF3697900FDCC0D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3F4B71FF3697900FDCC0D /* GameScene.swift */; };
 		4BD3F4BA1FF3697900FDCC0D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3F4B91FF3697900FDCC0D /* GameViewController.swift */; };
 		4BD3F4BD1FF3697900FDCC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3F4BB1FF3697900FDCC0D /* Main.storyboard */; };
 		4BD3F4BF1FF3697900FDCC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3F4BE1FF3697900FDCC0D /* Assets.xcassets */; };
 		4BD3F4C21FF3697900FDCC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3F4C01FF3697900FDCC0D /* LaunchScreen.storyboard */; };
+		4BD3F4D61FF37D8400FDCC0D /* pop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BD3F4D51FF37D8400FDCC0D /* pop.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B41599A1FF4B0D30000966F /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		4B41599C1FF4B1010000966F /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 		4BD3F4AE1FF3697900FDCC0D /* Bubbles With Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bubbles With Friends.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD3F4B11FF3697900FDCC0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4BD3F4B31FF3697900FDCC0D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4BD3F4B51FF3697900FDCC0D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		4BD3F4B71FF3697900FDCC0D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		4BD3F4B91FF3697900FDCC0D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4BD3F4BC1FF3697900FDCC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BD3F4BE1FF3697900FDCC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BD3F4C11FF3697900FDCC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BD3F4C31FF3697900FDCC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BD3F4D51FF37D8400FDCC0D /* pop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pop.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +62,16 @@
 		4BD3F4B01FF3697900FDCC0D /* Bubbles With Friends */ = {
 			isa = PBXGroup;
 			children = (
+				4BD3F4D51FF37D8400FDCC0D /* pop.mp3 */,
 				4BD3F4B11FF3697900FDCC0D /* AppDelegate.swift */,
-				4BD3F4B31FF3697900FDCC0D /* GameScene.sks */,
-				4BD3F4B51FF3697900FDCC0D /* Actions.sks */,
 				4BD3F4B71FF3697900FDCC0D /* GameScene.swift */,
 				4BD3F4B91FF3697900FDCC0D /* GameViewController.swift */,
 				4BD3F4BB1FF3697900FDCC0D /* Main.storyboard */,
 				4BD3F4BE1FF3697900FDCC0D /* Assets.xcassets */,
 				4BD3F4C01FF3697900FDCC0D /* LaunchScreen.storyboard */,
 				4BD3F4C31FF3697900FDCC0D /* Info.plist */,
+				4B41599A1FF4B0D30000966F /* StartScene.sks */,
+				4B41599C1FF4B1010000966F /* StartScene.swift */,
 			);
 			path = "Bubbles With Friends";
 			sourceTree = "<group>";
@@ -133,10 +136,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BD3F4BD1FF3697900FDCC0D /* Main.storyboard in Resources */,
-				4BD3F4B41FF3697900FDCC0D /* GameScene.sks in Resources */,
 				4BD3F4BF1FF3697900FDCC0D /* Assets.xcassets in Resources */,
 				4BD3F4C21FF3697900FDCC0D /* LaunchScreen.storyboard in Resources */,
-				4BD3F4B61FF3697900FDCC0D /* Actions.sks in Resources */,
+				4B41599B1FF4B0D30000966F /* StartScene.sks in Resources */,
+				4BD3F4D61FF37D8400FDCC0D /* pop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +153,7 @@
 				4BD3F4B81FF3697900FDCC0D /* GameScene.swift in Sources */,
 				4BD3F4BA1FF3697900FDCC0D /* GameViewController.swift in Sources */,
 				4BD3F4B21FF3697900FDCC0D /* AppDelegate.swift in Sources */,
+				4B41599D1FF4B1010000966F /* StartScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
